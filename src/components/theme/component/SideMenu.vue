@@ -1,25 +1,25 @@
 <template>
   <i-menu active-name="1-2" theme="light" width="auto" :open-names="['1']">
-    <i-menu-group title="内容管理">
+    <!-- <i-menu-group title="内容管理">
       <i-menu-item name="1">
         <i-icon type="md-document" />
-        文章管理
+        <span>menu01</span>
       </i-menu-item>
       <i-menu-item name="2">
         <i-icon type="md-chatbubbles" />
-        评论管理
+        <span>menu02</span>
       </i-menu-item>
       <i-menu-item name="3">
         <i-icon type="md-heart" />
-        用户留存
+        <span>menu03</span>
       </i-menu-item>
       <i-menu-item name="4">
         <i-icon type="md-leaf" />
-        流失用户
+        <span>menu04</span>
       </i-menu-item>
-    </i-menu-group>
+    </i-menu-group> -->
 
-    <!-- <i-submenu name="1">
+    <i-submenu name="1">
       <template slot="title">
         <i-i-icon type="ios-navigate"></i-i-icon>
         Item 1
@@ -43,13 +43,15 @@
       </template>
       <i-menu-item name="3-1">Option 1</i-menu-item>
       <i-menu-item name="3-2">Option 2</i-menu-item>
-    </i-submenu> -->
+    </i-submenu>
   </i-menu>
 </template>
 
 <script>
 export default {
-
+  data() {
+    return {}
+  }
 }
 </script>
 

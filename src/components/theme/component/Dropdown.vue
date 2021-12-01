@@ -5,14 +5,14 @@
         <span>Item 1</span>
       </template>
 
-      <i-menu-group title="使用">
-        <i-menu-item name="3-1">新增和启动</i-menu-item>
-        <i-menu-item name="3-2">活跃分析</i-menu-item>
-        <i-menu-item name="3-3">时段分析</i-menu-item>
+      <i-menu-group title="group01">
+        <i-menu-item name="3-1">menu01</i-menu-item>
+        <i-menu-item name="3-2">menu02</i-menu-item>
+        <i-menu-item name="3-3">menu03</i-menu-item>
       </i-menu-group>
-      <i-menu-group title="留存">
-        <i-menu-item name="3-4">用户留存</i-menu-item>
-        <i-menu-item name="3-5">流失用户</i-menu-item>
+      <i-menu-group title="group02">
+        <i-menu-item name="3-4">menu01</i-menu-item>
+        <i-menu-item name="3-5">menu02</i-menu-item>
       </i-menu-group>
     </i-submenu>
   </div>
